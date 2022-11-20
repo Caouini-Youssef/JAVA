@@ -3,9 +3,11 @@ package TP2.Shapes;
 import TP1.Compactable;
 import TP2.Dot;
 import TP2.TransformStack;
+import TP4.Infos;
 
 import java.util.Comparator;
 
+@Infos(Date = 2022)
 public class Image extends Shape implements Compactable,Comparable, Comparator {
 
     /**

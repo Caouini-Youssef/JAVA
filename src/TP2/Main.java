@@ -4,10 +4,14 @@ import TP1.Integers.Integers;
 import TP1.List.List;
 import TP1.List.Node;
 import TP1.Structure;
+import TP2.Shapes.Circle;
+import TP2.Shapes.Image;
+import TP2.Shapes.Segment;
+import TP4.Infos;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        /*TransformStack myStack = new TransformStack(100);
+        TransformStack myStack = new TransformStack(100);
         Dot myDot = new Dot();
         Circle myCircle = new Circle(new Dot(),5);
         Segment mySegment = new Segment(new Dot(1,1), new Dot(10,10));
@@ -23,9 +27,10 @@ public class Main {
         myImage.move(new Dot(4,3));
         myImage.draw(myStack);
         myStack.unstack();
-*/
 
-        /*
+        System.out.println("-----------------------------------------------------------");
+
+
         Dot p1 = new Dot(2, 4);
         Dot p2 = new Dot(3, 5);
         Dot p3 = new Dot(4, 6);
@@ -64,11 +69,9 @@ public class Main {
         i4.add(i3);
         i4.draw(pt);
         System.out.println("------------------------------------------------------------");
-         */
+
         Structure[] myStructure = new Structure[10];
         myStructure[0] = new List(new Node(0,null));
         myStructure[1] = new Integers(10);
-
-
     }
 }

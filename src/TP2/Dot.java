@@ -1,5 +1,7 @@
 package TP2;
 
+import TP4.Infos;
+
 public class Dot {
     /**
      * Classe qui représente un point en 2 dimensions dans un plan
@@ -77,6 +79,17 @@ public class Dot {
 
     @Override
     public String toString() {
-        return ("X : " + this.x + " Y :" + this.y);
+        return ("X : " + this.x + " Y : " + this.y);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Dot tmp = (Dot) obj;
+        return (tmp.getY() == this.getY() && tmp.getX() == this.getX());
+    }
+
+    @Override
+    public int hashCode() {
+        return (int) (this.getX());
     }
 }

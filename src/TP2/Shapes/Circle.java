@@ -2,16 +2,14 @@ package TP2.Shapes;
 
 import TP2.Dot;
 import TP2.TransformStack;
+import TP4.Infos;
 
+@Infos(Date = 2012)
 public class Circle extends Shape {
     /**
      * Classe qui représente un cercle décrit par un point d'origine et un rayon
      */
-
-    /**
-     * Attribut qui représente le point d'origine d'un cercle
-     */
-
+    
     /**
      * Attribut qui représente le rayon d'un cercle
      */

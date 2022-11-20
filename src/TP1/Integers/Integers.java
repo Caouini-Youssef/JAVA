@@ -76,7 +76,7 @@ public class Integers extends Structure {
         System.out.println("Nombre d'éléments : " + nb);
         for (int n : tab)
         {
-            System.out.println(" -> " + n);
+            System.out.print(" -> " + n);
         }
     }
 
